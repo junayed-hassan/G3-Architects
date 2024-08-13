@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,900;1,900&display=swap');
+
+/* global select start  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Work Sans", sans-serif;
+    font-weight:600;
+    font-style: normal;
+}
+ul,
+li {
+   list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* maun section start  */
+
+.maun {
+    width: 100%;
+    padding-top: 30px;
+    background-color: rgba(255, 143, 14, 0.10);
+}
+.maun .container {
+    display: flex;
+    align-items: center;
+}
+.maun .container .fast-list a {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+}
+.maun .container .list {
+    margin-left: auto;
+}
+.maun .container .list ul {
+    display: flex;
+}
+.maun .container .list ul li a {
+    padding-left: 70px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+/* start brand section */
+.brand {
+    background-color: hsla(32, 100%, 53%, 0.10);
+}
+.brand .container {
+    text-align: center;
+    padding-top: 70px;
+    width: 862px;
+}
+.brand .brand-text h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.brand .brand-text h2:not(:first-child) {
+    padding-bottom: 25px;
+}
+.brand .brand-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.brand .container .more  button {
+    padding: 15px 20px;
+    background-color:#FF900E;
+    border-radius: 8px;
+    border: none;
+    margin: 32px 0 45px;
+    font-size: 20px;
+    color: aliceblue;
+}
+/* start img section */
+.img {
+    background-color: rgba(255, 143, 14, 0.10);
+}
+.img .photo img {
+    width: 1140px;
+    padding-bottom: 35px;
+}
+/* start img-and-text section */
+.img-and-text .container {
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+}
+.img-and-text .container .img-two {
+    width: 50%;
+}
+.img-and-text .container .img-two ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 61px;
+}
+.img-and-text .container .img-two ul li img {
+    width: 245px;
+    height: 245px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.img-and-text .container .text {
+    width: 50%;
+    padding-left: 73px;
+}
+.img-and-text .container .text p {
+    padding: 24px 0 32px;
+}
+.img-and-text .container .text button {
+    padding: 15px 20px;
+    background-color:#FF900E;
+    border-radius: 8px;
+    border: none;
+    margin: 32px 0 50px;
+    font-size: 20px;
+    color: aliceblue;
+}
+ 
+/* start text-and-img-area */
+.text-and-img .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 100px;
+}
+.text-and-img .container .text-area {
+    width:38%;
+}
+.text-and-img .container .text-area .border-text {
+    display: flex;
+    padding-top: 40px;
+}
+.text-and-img .container .text-area .border {
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+}
+.text-and-img .container .text-area h2 {
+    font-size: 45px;
+    margin-left: 21px;
+}
+.text-and-img .container .text-area .fast-pragerf {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 24px 0 30px;
+}
+.text-and-img .container .text-area .box {
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+}
+.text-and-img .container .text-area .box h3 {
+    font-size: 20px;
+}
+.text-and-img .container .text-area .box p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.text-and-img .container .img-area {
+    width: 58%;
+    position: relative;
+}
+.text-and-img .container .img-area .img-area-img img {
+    margin-left: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    width:90%; 
+    height: 982px;; 
+} 
+.text-and-img .container .img-area .Experience {
+    text-align: center;
+    background-color:#FF900E;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    border-radius: 8px;
+    padding: 20px 18px;
+}
+.text-and-img .container .img-area .Experience strong {
+    display: block;
+    font-size: 65px;
+    line-height: 70px;
+}
+.text-and-img .container .img-area .Experience span {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* start Some Facts section */
+.Some .container h4 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.Some .container span {
+    display: block;
+    width: 450px;
+    font-size: 16px;
+    padding-bottom: 70px;
+}
+/* start some items list */
+.items-list .container {
+    display: flex;
+    padding-bottom: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.items-list .container div {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-right: 80px;
+}
+.items-list .container img {
+    margin-top: 25px;
+    width: 45px;
+    height: 45px;
+}
+.items-list .container strong {
+    display: block;
+    font-size: 45px;
+}
+.items-list .container span {
+    display: block;
+    font-size: 20px;
+}
+/* Sponspors section start */
+.Sponspors .container {
+    width: 450px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Sponspors .container h5 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.Sponspors .container span {
+    font-size: 16px;
+    line-height: 26px;
+}
+/* logo-list section start */
+.logo-list .container ul {
+    display: flex ;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.logo-list .container ul li a img {
+    width: 120px;
+}
+/* last section start */
+.last .container {
+    text-align: center;
+    background-color:#FFF4E7;
+    height: 70px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.last .container span {
+    font-size: 20px;
+    line-height: 70px;
+}
+/* that all for project */
